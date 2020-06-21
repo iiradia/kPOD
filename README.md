@@ -1,6 +1,6 @@
 # k-POD: A Method for k-Means Clustering of Missing Data
 
-The k-means algorithm is often used in clustering applications but its usage requires a complete data matrix. Missing data, however, are common in many applications. Mainstream approaches to clustering missing data reduce the missing data problem to a complete data formulation through either deletion or imputation but these solutions may incur significant costs. The k-POD method presents a simple extension of k-means clustering for missing data that works even when the missingness mechanism is unknown, when external information is unavailable, and when there is significant missingness in the data.
+The k-POD method presents a simple extension of k-means clustering for missing data that works even when the missingness mechanism is unknown, when external information is unavailable, and when there is significant missingness in the data. In addition, k-POD presents strong advantages in computation time and resources over other methods for removing missingness, while still maintaining accuracy.
 
 ## Getting Started
 
@@ -67,10 +67,8 @@ This package was implemented based on the algorithm and concepts in [k-POD](http
 
 * **Eric C. Chi** - *Co-Author of k-POD paper and algorithm.* - [Website](http://www.ericchi.com/)
 
-* **Richard G. Baraniuk** - *Co-Author of k-POD paper and algorithm.* - [Website](https://richb.rice.edu/)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Richard G. Baraniuk** - *Co-Author of k-POD paper and algorithm.* - [Website](https://richb.rice.edu
 
 ## License
 
-This project is licensed under the MIT License. You can find more details in the [LICENSE.md](https://github.com/iiradia/kPOD/LICENSE.md) file.
+This project is licensed under the MIT License. You can find more details in the [LICENSE.md](https://github.com/iiradia/kPOD/blob/master/LICENSE.md) file.
