@@ -73,4 +73,4 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 ## License
 
-This project is licensed under the MIT License. You can find more details at <a href="https://opensource.org/licenses/MIT">this link.</a>
+This project is licensed under the MIT License. You can find more details in the [LICENSE.md](https://github.com/iiradia/kPOD/LICENSE.md) file.
