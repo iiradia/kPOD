@@ -5,7 +5,7 @@ setup(
       version='0.1',
       description='Package for kPOD clustering',
       url='http://github.com/iiradia/kPOD',
-      author='Ishaan Radia',
+      author='Ishaan Radia [trl, cre], Jocelyn T. Chi [aut], Eric C. Chi [aut], Richard G. Baraniuk [aut]',
       author_email='iiradia@ncsu.edu',
       license='MIT',
       packages=['kPOD'],

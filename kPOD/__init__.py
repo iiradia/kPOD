@@ -13,8 +13,8 @@ from scipy.spatial import distance
 import pandas as pd
 
 # import helper methods
-from utils.initial_helpers import __initialize
-from utils.utils import (
+from .utils.initial_helpers import __initialize
+from .utils.utils import (
     __check_convergence, 
     __cluster_assignment, 
     __fill_data, 
