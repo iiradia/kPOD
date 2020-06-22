@@ -169,12 +169,9 @@ cluster_centers = clustered_data[1]
 
 Finally, we can plot the results of the k-POD algorithm. In this case, the plots shows 50 observations instead of 10 for clear visual demonstration.
 
-k-POD Algorithm
+#### k-POD Algorithm vs k-Means Algorithm
 
 ![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample1.JPG)
-
-k-Means Algorithm
-
 ![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample1.JPG)
 
 ## Citation
