@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 12 2020
-
-@author: Ishaan Radia
-"""
-
 # imports for mathematical functions
 import numpy as np
 from numpy import nanmean, nan
@@ -13,8 +6,8 @@ from scipy.spatial import distance
 import pandas as pd
 
 # import helper methods
-from .utils.initial_helpers import __initialize
-from .utils.utils import (
+from ..utils.initial_helpers import __initialize
+from ..utils.utils import (
     __check_convergence, 
     __cluster_assignment, 
     __fill_data, 
@@ -44,6 +37,9 @@ def k_pod(data, n_clusters,max_iter=300,tol=0):
         Index of the cluster each sample belongs to.
 
     """
+    # convert data to numpy array
+    data = np.array(data)
+    
     # assign initial variables
     N = data.shape[0]
     P = data.shape[1]
@@ -115,7 +111,5 @@ def k_pod(data, n_clusters,max_iter=300,tol=0):
     # return assignments and centroids
     cluster_ret = {"ClusterAssignment" : cluster_assignment, "ClusterCenters" : cluster_centers}
     
-    cluster_return  = [cluster_assignment, cluster_centers]
+    cluster_return  = (cluster_assignment, cluster_centers)
     return cluster_return
-
-    return np.array(cluster_assignment)
