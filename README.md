@@ -171,11 +171,11 @@ Finally, we can plot the results of the k-POD algorithm. In this case, the plots
 
 k-POD Algorithm
 
-![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample1.jpg)
+![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample1.JPG)
 
 k-Means Algorithm
 
-![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample1.jpg)
+![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample1.JPG)
 
 ## Citation
 
