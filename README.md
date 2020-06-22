@@ -165,7 +165,7 @@ cluster_centers = clustered_data[1]
 [array([-0.48490754, -0.05269574]), array([13.52224737, 12.32859965]), array([5.63207229, 6.82536771])]
 ```
 
-Finally, we can plot the results of the k-POD algorithm. In these examples, the shape of the data set is defined by (N, P), the number of clusters by K, and the percentage of the data that was missing is mentioned.
+Finally, we can plot the results of the k-POD algorithm. In these examples, the shape of the data set is defined by (N, P), the number of clusters by K, and the percentage of the data that was missing is mentioned. The comparison shown is the k-POD algorithm with the data containing missing values inputted, while the k-Means algorithm was given the complete data set (k-Means does not work on data sets with missing values).
 
 ### k-POD Algorithm vs k-Means Algorithm Graphically
 
@@ -177,7 +177,7 @@ Finally, we can plot the results of the k-POD algorithm. In these examples, the 
 
 ![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample2.JPG) ![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample2.JPG)
 
-As shown, the k-POD algorithm shows only small decreases in accuracy over k-Means while accomplishing a clustering task that would be otherwise computationally expensive with missing data.
+As shown, the k-POD algorithm shows only small decreases in accuracy over k-Means while accomplishing a clustering task that would be otherwise computationally expensive with missing data. In addition, the k-Means algorithm shown above is used on the complete data set, since k-Means does not work on data sets with missing values.
 
 ## Citation
 
