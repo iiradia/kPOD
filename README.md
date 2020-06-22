@@ -10,7 +10,7 @@ These instructions will walk you through the process of installing and using the
 
 First, ensure that you have the package manager ```pip``` installed for your Python version. You can find the installation instructions at <a href="https://pip.pypa.io/en/stable/installing/">this link.</a>
 
-In order to use k-POD, you should have <a href="https://pandas.pydata.org/getting_started.html">Pandas</a>, <a href="https://scipy.org/install.html">NumPy</a>, and <a href.="https://scipy.org/install.html">SciPy</a>. Installation instructions can be found in the links shown or below in the examples. 
+In order to use k-POD, you should have <a href="https://pandas.pydata.org/getting_started.html">Pandas</a>, <a href="https://scipy.org/install.html">NumPy</a>, and <a href="https://scipy.org/install.html">SciPy</a>. Installation instructions can be found in the links shown or below in the examples. 
 
 ```
 # install Pandas
@@ -63,8 +63,6 @@ Output:
 cluster_assignments = clustering_results[0]
 cluster_centers = clustering_results[1]
 ```
-
---- insert something here---
 
 ### Examples
 
