@@ -171,8 +171,7 @@ Finally, we can plot the results of the k-POD algorithm. In this case, the plots
 
 #### k-POD Algorithm vs k-Means Algorithm
 
-![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample1.JPG)
-![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample1.JPG)
+![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample1.JPG) ![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample1.JPG)
 
 ## Citation
 
