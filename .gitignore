@@ -1,0 +1,5 @@
+# remove __pycache__ from Git repo
+__pycache__
+examples/__pycache__
+main/__pycache__
+utils/__pycache__
