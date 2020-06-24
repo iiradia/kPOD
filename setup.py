@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(
+setup (
       name='kPOD',
       version='0.1',
       description='Package for kPOD clustering',
