@@ -189,7 +189,7 @@ This package was implemented based on the algorithm and concepts in [k-POD](http
 
 * **Jocelyn T. Chi** - PhD Student in Statistics at North Carolina State University - *Co-Author of k-POD paper and algorithm.* - [Website](https://jocelynchi.com/)
 
-* **Eric C. Chi** - Assistant Professor of Statistics at North Carolina State University *Co-Author of k-POD paper and algorithm.* - [Website](http://www.ericchi.com/)
+* **Eric C. Chi** - Assistant Professor of Statistics at North Carolina State University - *Co-Author of k-POD paper and algorithm.* - [Website](http://www.ericchi.com/)
 
 * **Richard G. Baraniuk** - Victor E. Cameron Chair of Electrical and Computer Engineering at Rice University - *Co-Author of k-POD paper and algorithm.* - [Website](https://richb.rice.edu)
 
