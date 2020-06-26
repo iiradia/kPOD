@@ -191,7 +191,7 @@ Chi JT, Chi EC, Baraniuk RG (2016). “$k$-POD: A Method for $k$-Means Clusterin
 
 ```
 Corresponding BibTeX entry:
-  @Article{,
+  @article{,
     title = {$k$-POD: A Method for $k$-Means Clustering of Missing Data},
     author = {Jocelyn T. Chi and Eric C. Chi and Richard G. Baraniuk},
     journal = {The American Statistician},
@@ -207,6 +207,7 @@ Corresponding BibTeX entry:
 Radia, Ishaan (2020). “A Python implementation of {$k$-POD}.” https://github.com/iiradia/kPOD/.
 
 ```
+Corresponding BibTeX entry:
   @misc{,
     Author = {Ishaan Radia},
     title = {A Python implementation of {$k$-POD}},
