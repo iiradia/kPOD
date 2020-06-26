@@ -202,7 +202,11 @@ Corresponding BibTeX entry:
     issue = {1},
     url = {http://www.tandfonline.com/doi/abs/10.1080/00031305.2015.1086685},
   }
-  
+```
+
+Radia, Ishaan (2020). “A Python implementation of {$k$-POD}.” https://github.com/iiradia/kPOD/.
+
+```
   @misc{,
     Author = {Ishaan Radia},
     title = {A Python implementation of {$k$-POD}},
