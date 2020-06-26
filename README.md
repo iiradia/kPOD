@@ -185,12 +185,14 @@ As shown, the k-POD algorithm shows only small decreases in accuracy over k-Mean
 
 ## Citation
 
-To cite kpodclustr in publications, please use:
+If you find that this Python implementation of $k$-POD has contributed to your published work, please include the following citations:
+
 Chi JT, Chi EC, Baraniuk RG (2016). “$k$-POD: A Method for $k$-Means Clustering of Missing Data.” The American Statistician, 70, 91–99. doi: 10.1080/00031305.2015.1086685, http://www.tandfonline.com/doi/abs/10.1080/00031305.2015.1086685.
+
+```
 Corresponding BibTeX entry:
   @Article{,
-    title = {$k$-POD: A Method for $k$-Means Clustering of Missing
-      Data},
+    title = {$k$-POD: A Method for $k$-Means Clustering of Missing Data},
     author = {Jocelyn T. Chi and Eric C. Chi and Richard G. Baraniuk},
     journal = {The American Statistician},
     year = {2016},
@@ -198,9 +200,16 @@ Corresponding BibTeX entry:
     pages = {91--99},
     doi = {10.1080/00031305.2015.1086685},
     issue = {1},
-    url =
-      {http://www.tandfonline.com/doi/abs/10.1080/00031305.2015.1086685},
+    url = {http://www.tandfonline.com/doi/abs/10.1080/00031305.2015.1086685},
   }
+  
+  @misc{,
+    Author = {Ishaan Radia},
+    title = {A Python implementation of {$k$-POD}},
+    month = {June},
+    year = {2020}
+}  
+```
 
 ## Authors
 
