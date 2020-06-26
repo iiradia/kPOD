@@ -185,13 +185,13 @@ This package was implemented based on the algorithm and concepts in [k-POD](http
 
 ## Authors
 
-* **Ishaan Radia** - *Translated paper to Python package, responsible for maintenance of package.* - [GitHub](https://github.com/iiradia)
+* **Ishaan Radia** - Rising Junior majoring in Statistics at North Carolina State University - *Translated paper to Python package, responsible for maintenance of package.* - [LinkedIn](https://linkedin.com/in/ishaan-radia) - [GitHub](https://github.com/iiradia)
 
-* **Jocelyn T. Chi** - *Co-Author of k-POD paper and algorithm.* - [Website](https://jocelynchi.com/)
+* **Jocelyn T. Chi** - PhD Student in Statistics at North Carolina State University - *Co-Author of k-POD paper and algorithm.* - [Website](https://jocelynchi.com/)
 
-* **Eric C. Chi** - *Co-Author of k-POD paper and algorithm.* - [Website](http://www.ericchi.com/)
+* **Eric C. Chi** - Assistant Professor of Statistics at North Carolina State University - *Co-Author of k-POD paper and algorithm.* - [Website](http://www.ericchi.com/)
 
-* **Richard G. Baraniuk** - *Co-Author of k-POD paper and algorithm.* - [Website](https://richb.rice.edu)
+* **Richard G. Baraniuk** - Victor E. Cameron Chair of Electrical and Computer Engineering at Rice University - *Co-Author of k-POD paper and algorithm.* - [Website](https://richb.rice.edu)
 
 ## License
 
