@@ -208,7 +208,7 @@ Corresponding BibTeX entry:
     title = {A Python implementation of {$k$-POD}},
     month = {June},
     year = {2020}
-}  
+  }  
 ```
 
 ## Authors
