@@ -204,7 +204,7 @@ Corresponding BibTeX entry:
   }
 ```
 
-Radia, Ishaan (2020). “A Python implementation of {$k$-POD}.” https://github.com/iiradia/kPOD/.
+Radia, Ishaan (2020). “A Python implementation of $k$-POD.” https://github.com/iiradia/kPOD/.
 
 ```
 Corresponding BibTeX entry:
