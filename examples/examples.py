@@ -48,12 +48,26 @@ def generate_complete_data(n, p, k, cluster_distance, mu = 0, sigma = 1, plot = 
 
     # decides how to divide observations into clusters
     cluster_sep = n // k
+    print(cluster_sep)
+    mu_set = []
 
     # iterate through observations
     for obs in range(n):
 
         # modify mean to match current cluster center
         feature_mu = mu + (obs // cluster_sep)*cluster_distance
+        
+        # checks if the number of means is equal to number of clusters
+        if len(mu_set) == k:
+
+            # if so, set next mean to last mean
+            feature_mu = mu_set[-1]
+
+        # if mean is not in the set
+        if feature_mu not in mu_set:
+
+            # add mean to sets
+            mu_set.append(feature_mu)
 
         # iterate through features/columns
         for feature in range(p):
