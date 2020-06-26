@@ -171,11 +171,11 @@ Finally, we can plot the results of the k-POD algorithm. In these examples, the 
 
 #### N = 50, P = 2, K = 3, 10% Missing Data
 
-![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample1%20(1).JPG) ![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample1%20(1).JPG)
+![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample1%20(1).jpg) ![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample1%20(1).jpg)
 
 #### N = 100, P = 2, K = 3, 25% Missing Data
 
-![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample2%20(1).JPG) ![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample2%20(1).JPG)
+![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample2%20(1).jpg) ![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample2%20(1).jpg)
 
 As shown, the k-POD algorithm shows only small decreases in accuracy over k-Means while accomplishing a clustering task that would be otherwise computationally expensive with missing data. In addition, the k-Means algorithm shown above is used on the complete data set, since k-Means does not work on data sets with missing values.
 
