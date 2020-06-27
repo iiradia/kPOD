@@ -175,11 +175,11 @@ Finally, we can plot the results of the k-POD algorithm. In these examples, the 
 
 #### N = 50, P = 2, K = 3, 10% Missing Data
 
-![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample1%20(1).jpg) ![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample1%20(1).jpg)
+![k-POD-result](images/kPODExample11.jpg) ![k-Means-result](images/kMeansExample11.jpg)
 
 #### N = 100, P = 2, K = 3, 25% Missing Data
 
-![k-POD-result](https://github.com/iiradia/kPOD/blob/master/images/kPODExample2%20(1).jpg) ![k-Means-result](https://github.com/iiradia/kPOD/blob/master/images/kMeansExample2%20(1).jpg)
+![k-POD-result](images/kPODExample21.jpg) ![k-Means-result](images/kMeansExample21.jpg)
 
 *Note: Colors are randomly assigned for each image and they do not indicate the same clusters of data across images.*
 
