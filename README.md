@@ -1,8 +1,10 @@
 # k-POD: A Method for k-Means Clustering of Missing Data
 
-Python software for k-means clustering of partially observed data from Chi, Chi, and Baraniuk (2016) <doi:10.1080/00031305.2015.1086685>.
+Python software for k-means clustering of partially observed data from Chi, Chi, and Baraniuk (2016) \<doi:10.1080/00031305.2015.1086685\>.
+
 The k-POD method presents a simple extension of k-means clustering for missing data that works even when the missingness mechanism is unknown, when external information is unavailable, and when there is significant missingness in the data. In addition, k-POD presents strong advantages in computation time and resources over other methods for removing missingness, while still maintaining accuracy. 
-Citation information is below.
+
+Citation information is provided near the bottom of this README file.
 
 ## Getting Started
 
@@ -167,7 +169,7 @@ cluster_centers = clustered_data[1]
 [array([-0.48490754, -0.05269574]), array([13.52224737, 12.32859965]), array([5.63207229, 6.82536771])]
 ```
 
-Finally, we can plot the results of the k-POD algorithm. In these examples, the shape of the data set is defined by (N, P), the number of clusters by K, and the percentage of the data that was missing is mentioned. The comparison shown is the k-POD algorithm with the data containing missing values inputted, while the k-Means algorithm was given the complete data set (k-Means does not work on data sets with missing values).
+Finally, we can plot the results of the k-POD algorithm. In these examples, the shape of the data set is defined by (N, P), the number of clusters by K, and the percentage of the data that was missing is mentioned. The comparison shown is the k-POD algorithm with the data containing missing values inputted, while the k-means algorithm was given the complete data set (k-Means does not work on data sets with missing values).
 
 ### k-POD Algorithm vs k-Means Algorithm Graphically
 
@@ -181,11 +183,11 @@ Finally, we can plot the results of the k-POD algorithm. In these examples, the 
 
 *Note: Colors are randomly assigned for each image and they do not indicate the same clusters of data across images.*
 
-As shown, the k-POD algorithm shows only small decreases in accuracy over k-Means while accomplishing a clustering task that would be otherwise computationally expensive with missing data. In addition, the k-Means algorithm shown above is used on the complete data set, since k-Means does not work on data sets with missing values.
+As shown, the k-POD algorithm shows only small decreases in accuracy over k-means while accomplishing a clustering task that would be otherwise computationally expensive with missing data. In addition, the k-means algorithm shown above is used on the complete data set, since k-means does not work on data sets with missing values.
 
 ## Citation
 
-If you find that this Python implementation of $k$-POD has contributed to your published work, please include the following citations:
+If you find that this Python implementation of k-POD has contributed to your published work, please include the following citations:
 
 Chi JT, Chi EC, Baraniuk RG (2016). “$k$-POD: A Method for $k$-Means Clustering of Missing Data.” The American Statistician, 70, 91–99. doi: 10.1080/00031305.2015.1086685, http://www.tandfonline.com/doi/abs/10.1080/00031305.2015.1086685.
 
@@ -204,13 +206,14 @@ Corresponding BibTeX entry:
   }
 ```
 
-Radia, Ishaan (2020). “A Python implementation of $k$-POD.” https://github.com/iiradia/kPOD/.
+Radia, Ishaan (2020). “A Python implementation of k-POD.” https://github.com/iiradia/kPOD/.
 
 ```
 Corresponding BibTeX entry:
   @misc{,
-    Author = {Ishaan Radia},
+    author = {Ishaan Radia},
     title = {A Python implementation of {$k$-POD}},
+    url = {https://github.com/iiradia/kPOD/},
     month = {June},
     year = {2020}
   }  
@@ -220,11 +223,11 @@ Corresponding BibTeX entry:
 
 * **Ishaan Radia** - Rising Junior majoring in Statistics at North Carolina State University - *Translated paper to Python package, responsible for maintenance of package.* - [LinkedIn](https://linkedin.com/in/ishaan-radia) - [GitHub](https://github.com/iiradia)
 
-* **Jocelyn T. Chi** - PhD Student in Statistics at North Carolina State University - *Co-Author of k-POD paper and algorithm.* - [Website](https://jocelynchi.com/)
+* **Jocelyn T. Chi** - PhD Student in Statistics at North Carolina State University - *Co-Author of $k$-POD paper and algorithm.* - [Website](https://jocelynchi.com/)
 
-* **Eric C. Chi** - Assistant Professor of Statistics at North Carolina State University - *Co-Author of k-POD paper and algorithm.* - [Website](http://www.ericchi.com/)
+* **Eric C. Chi** - Assistant Professor of Statistics at North Carolina State University - *Co-Author of $k$-POD paper and algorithm, Faculty mentor for this Python implementation of $k$-POD* - [Website](http://www.ericchi.com/)
 
-* **Richard G. Baraniuk** - Victor E. Cameron Chair of Electrical and Computer Engineering at Rice University - *Co-Author of k-POD paper and algorithm.* - [Website](https://richb.rice.edu)
+* **Richard G. Baraniuk** - Victor E. Cameron Chair of Electrical and Computer Engineering at Rice University - *Co-Author of $k$-POD paper and algorithm.* - [Website](https://richb.rice.edu)
 
 ## License
 
